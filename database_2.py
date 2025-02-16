@@ -166,7 +166,7 @@ if __name__ == "__main__":
     init_db()
 
     # Загрузка рецептов из файла recipes.json
-    load_recipes_from_json('recipes.json')
+    load_recipes_from_json('recipes_2.json')
 
     # Получение случайного рецепта
     random_recipe = get_random_recipe("smoothies")
